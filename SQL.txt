@@ -1,17 +1,13 @@
-Найдите номер модели, скорость и размер жесткого диска для всех ПК стоимостью менее 500 дол. Вывести: model, speed и hd:
+Выведите поле name из таблицы Passenger.
 
-SELECT DISTINCT model, speed, hd
-FROM PC
-WHERE price < 500
-
+SELECT name 
+FROM Passenger
 
 ========
 
+Выведите поля member_id, member_name и status из таблицы FamilyMembers.
 
-Найдите производителей принтеров. Вывести: maker:
-
-SELECT DISTINCT maker FROM Product
-WHERE type = 'printer'
-
+SELECT member_id, member_name, status 
+FROM FamilyMembers
 
 =======
